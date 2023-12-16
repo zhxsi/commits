@@ -1,2 +1,2 @@
 md commits
-FOR /L IN (1,1,100) DO echo GitHub_Commits_%%I > %%I.py
+FOR /L %%I IN (1,1,100) DO echo GitHub_Commits_%%I > %CD%\commits\%%I.py
